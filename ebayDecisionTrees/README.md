@@ -1,9 +1,8 @@
-# EbayDecisionTrees
+# Ebay Competitve Auction Classifier using Decision Trees
 
 ## Problem Statement:
 
-The task is to predict whether or not the auction
-will be competitive.
+The task is to predict whether or not the auction will be competitive.
 
 ## The Case:
 1972 auctions that transacted on eBay.com during May–June 2004. The goal is to use
