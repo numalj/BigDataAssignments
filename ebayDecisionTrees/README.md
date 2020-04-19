@@ -26,7 +26,8 @@ the price at which the auction closed.
 
 The blue color of the nodes indicates that the majority of the prediction is “Competitive” (y =1). The orange color of the nodes indicates that the prediction is “non-competitive” (y = 0). Denser color of the nodes indicates higher purity of the nodes. 
 
-[DecisionTree2](/images/Tree2.png)
+![DecisionTree2](images/Tree2.png)
+
 
 Duration, OpenPrice, SellerRating, the currency “EUR”, the “Music/Movie/Game” category, and the “Automotive” category are important predictors for partitioning the Competitive auctions from on-competitive auctions. Among them, Open Price is particularly important, since splits on this variable is recurrent at different levels of the tree. More specifically, lower Open Prices are associated with predictions of competitive auctions, and higher Open Prices are associated with predictions of non-competitive auctions. This result is expected because consumers more interested in bidding if the good is cheaper.
 
